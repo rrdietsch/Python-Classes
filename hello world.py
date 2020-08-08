@@ -28,3 +28,21 @@ nombre_edad = {
     "Luis": "34",
     "Juan": "36",
     }
+
+## escape word ej. /n <-new line
+## you can only concantenate with strings
+
+########################
+# strings
+greeting = "que lo que"
+'''
+gretting.upper() // mayuscula
+gretting.lower() // minuscula
+.swapcase() // invierte las mayuculas con minusculas
+.Title() //mayuscula cada palabra
+.Capitalize() //mayuscual primera palabra de oracion
+'''
+
+print(greeting.split(" ")[1:3])
+##############################
+
